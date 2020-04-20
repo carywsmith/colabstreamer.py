@@ -73,7 +73,7 @@ def config_no_gpu():
   _combo_installer(packages_to_install)
 
 def _config_i3():
-  _download("https://gist.githubusercontent.com/taesiri/ea3f5c6154ebd31e0c2092606a236a22/raw/6f2314ea55704c6c940aa1a4f8eb89a9a5453577/config", "i3.conf")
+  _download("https://gist.github.com/carywsmith/913f39a704bcded9ca808b5222f42b38", "i3.conf")
   os.makedirs('/root/.config/i3/', exist_ok=True)
   shutil.move("i3.conf", "/root/.config/i3/config")
 
